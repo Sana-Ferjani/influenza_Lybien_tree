@@ -1,0 +1,3745 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "H3N2 virus",
+    "updated": "2026-01-14",
+    "build_url": "https://github.com/nextstrain/H3N2",
+    "maintainers": [
+      {
+        "name": "Trevor Bedford"
+      }
+    ],
+    "display_defaults": {
+      "map_triplicate": true
+    },
+    "genome_annotations": {
+      "nuc": {
+        "end": 1718,
+        "start": 1,
+        "strand": "+",
+        "type": "source",
+        "seqid": "config/H3N2.gb"
+      },
+      "HA": {
+        "end": 1701,
+        "seqid": "config/H3N2.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "CDS"
+      }
+    },
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Date",
+        "type": "continuous"
+      },
+      {
+        "key": "country",
+        "title": "Country",
+        "type": "categorical",
+        "scale": [
+          [
+            "Oman",
+            "#1F77B4"
+          ],
+          [
+            "United Arab Emirates",
+            "#FF7F0E"
+          ],
+          [
+            "Albania",
+            "#2CA02C"
+          ],
+          [
+            "Norway",
+            "#D62728"
+          ],
+          [
+            "Australia",
+            "#9467BD"
+          ],
+          [
+            "Reunion",
+            "#8C564B"
+          ],
+          [
+            "Brunei",
+            "#7F7F7F"
+          ],
+          [
+            "China",
+            "#BCBD22"
+          ],
+          [
+            "Indonesia",
+            "#393B79"
+          ],
+          [
+            "Japan",
+            "#637939"
+          ],
+          [
+            "Malaysia",
+            "#8C6D31"
+          ],
+          [
+            "Saudi Arabia",
+            "#843C39"
+          ],
+          [
+            "Thailand",
+            "#7B4173"
+          ],
+          [
+            "Vietnam",
+            "#3182BD"
+          ],
+          [
+            "Austria",
+            "#E6550D"
+          ],
+          [
+            "Bulgaria",
+            "#31A354"
+          ],
+          [
+            "Finland",
+            "#756BB1"
+          ],
+          [
+            "France",
+            "#636363"
+          ],
+          [
+            "Germany",
+            "#FD8D3C"
+          ],
+          [
+            "Iceland",
+            "#74C476"
+          ],
+          [
+            "Luxembourg",
+            "#9E9AC8"
+          ],
+          [
+            "Poland",
+            "#a84032"
+          ],
+          [
+            "Slovakia",
+            "#6BAED6"
+          ],
+          [
+            "Spain",
+            "#FDD0A2"
+          ],
+          [
+            "Ukraine",
+            "#A1D99B"
+          ],
+          [
+            "United Kingdom",
+            "#BC80BD"
+          ],
+          [
+            "Argentina",
+            "#8DD3C7"
+          ],
+          [
+            "Chile",
+            "#FFFFB3"
+          ],
+          [
+            "Belgium",
+            "#FB8072"
+          ],
+          [
+            "Senegal",
+            "#80B1D3"
+          ],
+          [
+            "United States",
+            "#FDB462"
+          ],
+          [
+            "Portugal",
+            "#B3DE69"
+          ],
+          [
+            "Netherlands",
+            "#FCCDE5"
+          ],
+          [
+            "Denmark",
+            "#D9D9D9"
+          ],
+          [
+            "Sweden",
+            "#BC80BD"
+          ],
+          [
+            "Ireland",
+            "#CCEBC5"
+          ],
+          [
+            "Croatia",
+            "#FFED6F"
+          ],
+          [
+            "Algeria",
+            "#E41A1C"
+          ],
+          [
+            "Romania",
+            "#377EB8"
+          ],
+          [
+            "Italy",
+            "#4DAF4A"
+          ],
+          [
+            "Hungary",
+            "#FF69B4"
+          ],
+          [
+            "Switzerland",
+            "#00CED1"
+          ],
+          [
+            "Morocco",
+            "#FFD700"
+          ],
+          [
+            "Israel",
+            "#ADFF2F"
+          ],
+          [
+            "Serbia",
+            "#8B0000"
+          ],
+          [
+            "Czech Republic",
+            "#20B2AA"
+          ],
+          [
+            "Libya",
+            "#800080"
+          ]
+        ]
+      },
+      {
+        "key": "region",
+        "title": "Region",
+        "type": "categorical",
+        "scale": [
+          [
+            "Africa",
+            "#CEB541"
+          ]
+        ]
+      }
+    ],
+    "filters": [
+      "country",
+      "region"
+    ],
+    "geo_resolutions": [
+      {
+        "key": "country",
+        "demes": {
+          "Albania": {
+            "latitude": 41.3275,
+            "longitude": 19.8189
+          },
+          "Denmark": {
+            "latitude": 55.6761,
+            "longitude": 12.5683
+          },
+          "Reunion": {
+            "latitude": -21.1151,
+            "longitude": 55.5364
+          },
+          "Sweden": {
+            "latitude": 59.3293,
+            "longitude": 18.0686
+          },
+          "Malaysia": {
+            "latitude": 3.139,
+            "longitude": 101.6869
+          },
+          "Israel": {
+            "latitude": 31.7683,
+            "longitude": 35.2137
+          },
+          "Morocco": {
+            "latitude": 31.7917,
+            "longitude": -7.0926
+          },
+          "Argentina": {
+            "latitude": -34.6037,
+            "longitude": -58.3816
+          },
+          "Libya": {
+            "latitude": 26.3351,
+            "longitude": 17.2283
+          },
+          "Vietnam": {
+            "latitude": 21.0285,
+            "longitude": 105.8542
+          },
+          "Thailand": {
+            "latitude": 13.7563,
+            "longitude": 100.5018
+          },
+          "Poland": {
+            "latitude": 52.2297,
+            "longitude": 21.0122
+          },
+          "Brunei": {
+            "latitude": 4.9031,
+            "longitude": 114.9398
+          },
+          "Norway": {
+            "latitude": 59.9139,
+            "longitude": 10.7522
+          },
+          "Serbia": {
+            "latitude": 44.8176,
+            "longitude": 20.4569
+          },
+          "Chile": {
+            "latitude": -33.4489,
+            "longitude": -70.6693
+          },
+          "China": {
+            "latitude": 39.9042,
+            "longitude": 116.4074
+          },
+          "Italy": {
+            "latitude": 41.9028,
+            "longitude": 12.4964
+          },
+          "Ukraine": {
+            "latitude": 50.4501,
+            "longitude": 30.5234
+          },
+          "France": {
+            "latitude": 48.8566,
+            "longitude": 2.3522
+          },
+          "Hungary": {
+            "latitude": 47.4979,
+            "longitude": 19.0402
+          },
+          "Oman": {
+            "latitude": 21.5126,
+            "longitude": 55.9233
+          },
+          "Ireland": {
+            "latitude": 53.3331,
+            "longitude": -6.2489
+          },
+          "Indonesia": {
+            "latitude": -6.2088,
+            "longitude": 106.8456
+          },
+          "Saudi Arabia": {
+            "latitude": 24.7136,
+            "longitude": 46.6753
+          },
+          "Finland": {
+            "latitude": 60.1699,
+            "longitude": 24.9384
+          },
+          "Netherlands": {
+            "latitude": 52.3676,
+            "longitude": 4.9041
+          },
+          "Germany": {
+            "latitude": 52.52,
+            "longitude": 13.405
+          },
+          "Spain": {
+            "latitude": 40.4168,
+            "longitude": -3.7038
+          },
+          "Australia": {
+            "latitude": -35.2809,
+            "longitude": 149.13
+          },
+          "Portugal": {
+            "latitude": 38.7169,
+            "longitude": -9.1396
+          },
+          "Slovakia": {
+            "latitude": 48.1486,
+            "longitude": 17.1077
+          },
+          "Bulgaria": {
+            "latitude": 42.6977,
+            "longitude": 23.3219
+          },
+          "Iceland": {
+            "latitude": 64.1355,
+            "longitude": -21.8954
+          },
+          "Belgium": {
+            "latitude": 50.8503,
+            "longitude": 4.3517
+          },
+          "Croatia": {
+            "latitude": 45.815,
+            "longitude": 15.9819
+          },
+          "United States": {
+            "latitude": 38.9072,
+            "longitude": -77.0369
+          },
+          "Czech Republic": {
+            "latitude": 50.0755,
+            "longitude": 14.4378
+          },
+          "Luxembourg": {
+            "latitude": 49.6117,
+            "longitude": 6.1319
+          },
+          "Switzerland": {
+            "latitude": 46.9481,
+            "longitude": 7.4474
+          },
+          "Algeria": {
+            "latitude": 28.034,
+            "longitude": 1.6596
+          },
+          "Senegal": {
+            "latitude": 14.7167,
+            "longitude": -17.4677
+          },
+          "Japan": {
+            "latitude": 35.6895,
+            "longitude": 139.6917
+          },
+          "United Kingdom": {
+            "latitude": 51.5074,
+            "longitude": -0.1278
+          },
+          "Austria": {
+            "latitude": 48.2082,
+            "longitude": 16.3738
+          },
+          "United Arab Emirates": {
+            "latitude": 24.4539,
+            "longitude": 54.3773
+          },
+          "Romania": {
+            "latitude": 44.4328,
+            "longitude": 26.1043
+          }
+        }
+      },
+      {
+        "key": "region",
+        "demes": {
+          "Africa": {
+            "latitude": 4.070194,
+            "longitude": 21.824559
+          }
+        }
+      }
+    ],
+    "panels": [
+      "tree",
+      "map"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000002",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 2022.578
+      },
+      "country": {
+        "value": "Spain",
+        "confidence": {
+          "Spain": 0.573,
+          "Belgium": 0.154,
+          "Brunei": 0.0436,
+          "Japan": 0.0436,
+          "Senegal": 0.0412,
+          "Indonesia": 0.0153,
+          "Malaysia": 0.0143,
+          "Thailand": 0.0141,
+          "Libya": 0.0132,
+          "Saudi Arabia": 0.0126,
+          "Vietnam": 0.0126,
+          "Sweden": 0.00997,
+          "United States": 0.00988,
+          "Chile": 0.00628,
+          "Australia": 0.00558,
+          "Norway": 0.00278,
+          "Hong Kong (SAR)": 0.00276,
+          "Albania": 0.00267,
+          "United Kingdom": 0.00244,
+          "France": 0.00198
+        },
+        "entropy": 1.725
+      }
+    },
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "name": "NODE_0000000",
+        "node_attrs": {
+          "div": 1.13924e-17,
+          "num_date": {
+            "value": 2022.578
+          },
+          "country": {
+            "value": "Spain",
+            "confidence": {
+              "Spain": 0.603,
+              "Belgium": 0.18,
+              "Senegal": 0.0419,
+              "Brunei": 0.0296,
+              "Japan": 0.0296,
+              "Libya": 0.0146,
+              "Sweden": 0.0114,
+              "United States": 0.0113,
+              "Indonesia": 0.0104,
+              "Malaysia": 0.00971,
+              "Thailand": 0.00957,
+              "Saudi Arabia": 0.00856,
+              "Vietnam": 0.00856,
+              "Chile": 0.00429,
+              "Australia": 0.00383,
+              "Norway": 0.002,
+              "Hong Kong (SAR)": 0.00195,
+              "Albania": 0.00187,
+              "United Kingdom": 0.00174,
+              "France": 0.00159
+            },
+            "entropy": 1.548
+          }
+        },
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "name": "PX230021.1",
+            "node_attrs": {
+              "div": 0.0105559,
+              "num_date": {
+                "value": 2024.74,
+                "inferred": true
+              },
+              "country": {
+                "value": "Spain",
+                "confidence": {
+                  "Spain": 0.479,
+                  "Belgium": 0.148,
+                  "Senegal": 0.0374,
+                  "Brunei": 0.0283,
+                  "Japan": 0.0283,
+                  "Libya": 0.016,
+                  "Sweden": 0.0134,
+                  "United States": 0.0134,
+                  "Indonesia": 0.0131,
+                  "Malaysia": 0.0121,
+                  "Thailand": 0.012,
+                  "Saudi Arabia": 0.0112,
+                  "Vietnam": 0.0112,
+                  "Chile": 0.00771,
+                  "Australia": 0.00735,
+                  "France": 0.00653,
+                  "Hong Kong (SAR)": 0.00644,
+                  "Norway": 0.00593,
+                  "United Kingdom": 0.00586,
+                  "Albania": 0.00585,
+                  "Poland": 0.00479,
+                  "Switzerland": 0.00478,
+                  "China": 0.00475,
+                  "Hungary": 0.00471,
+                  "Netherlands": 0.0047,
+                  "Germany": 0.00469,
+                  "Bulgaria": 0.00469,
+                  "Oman": 0.00469,
+                  "Ireland": 0.00468,
+                  "Italy": 0.00467,
+                  "Israel": 0.00467,
+                  "Reunion": 0.00466,
+                  "United Arab Emirates": 0.00466,
+                  "Argentina": 0.00466,
+                  "Luxembourg": 0.00465,
+                  "Denmark": 0.00465,
+                  "Ukraine": 0.00465,
+                  "Austria": 0.00465,
+                  "Slovakia": 0.00465,
+                  "Morocco": 0.00465,
+                  "Portugal": 0.00465,
+                  "Czech Republic": 0.00465,
+                  "Serbia": 0.00465,
+                  "Finland": 0.00465,
+                  "Algeria": 0.00465,
+                  "Iceland": 0.00464,
+                  "Croatia": 0.00464,
+                  "Romania": 0.00464
+                },
+                "entropy": 2.337
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "G7A",
+                  "A196G",
+                  "A205G",
+                  "A206G",
+                  "C316A",
+                  "G335A",
+                  "A396C",
+                  "C432T",
+                  "A467T",
+                  "T597C",
+                  "T622A",
+                  "G715A",
+                  "C861T",
+                  "C972T",
+                  "T1020A",
+                  "T1047C",
+                  "G1181A",
+                  "G1386A"
+                ],
+                "HA": [
+                  "A3T",
+                  "K66E",
+                  "N69G",
+                  "S112N",
+                  "K156I",
+                  "F208I",
+                  "V239I",
+                  "S394N"
+                ]
+              },
+              "labels": {
+                "aa": "HA: A3T, K66E, N69G, S112N, K156I, F208I, V239I, S394N"
+              }
+            }
+          },
+          {
+            "name": "NODE_0000001",
+            "node_attrs": {
+              "div": 0.00349851,
+              "num_date": {
+                "value": 2023.032
+              },
+              "country": {
+                "value": "Spain",
+                "confidence": {
+                  "Spain": 0.659,
+                  "Belgium": 0.229,
+                  "Senegal": 0.0432,
+                  "Libya": 0.0171,
+                  "Sweden": 0.0141,
+                  "United States": 0.0139,
+                  "Japan": 0.00475,
+                  "Brunei": 0.00475,
+                  "Indonesia": 0.00169,
+                  "Malaysia": 0.00147,
+                  "Thailand": 0.00146,
+                  "Saudi Arabia": 0.0013,
+                  "Vietnam": 0.0013
+                },
+                "entropy": 1.086
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A121G",
+                  "T408C",
+                  "C699T",
+                  "T783C",
+                  "G1087A",
+                  "A1300G"
+                ],
+                "HA": [
+                  "I41V",
+                  "V363M",
+                  "I434V"
+                ]
+              },
+              "labels": {
+                "aa": "HA: I41V, V363M, I434V"
+              }
+            },
+            "children": [
+              {
+                "name": "EPI_ISL_20090271",
+                "node_attrs": {
+                  "div": 0.00349851,
+                  "num_date": {
+                    "value": 2023.032,
+                    "inferred": false
+                  },
+                  "country": {
+                    "value": "Spain",
+                    "confidence": {
+                      "Spain": 1.0
+                    },
+                    "entropy": -1e-12
+                  },
+                  "region": {
+                    "value": "Europe "
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                }
+              },
+              {
+                "name": "EPI_ISL_19085894",
+                "node_attrs": {
+                  "div": 0.00349851,
+                  "num_date": {
+                    "value": 2023.032,
+                    "inferred": false
+                  },
+                  "country": {
+                    "value": "Belgium",
+                    "confidence": {
+                      "Belgium": 1.0
+                    },
+                    "entropy": -1e-12
+                  },
+                  "region": {
+                    "value": "Europe "
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                }
+              },
+              {
+                "name": "NODE_0000003",
+                "node_attrs": {
+                  "div": 0.00349851,
+                  "num_date": {
+                    "value": 2023.606
+                  },
+                  "country": {
+                    "value": "Senegal",
+                    "confidence": {
+                      "Senegal": 0.206,
+                      "Libya": 0.191,
+                      "Sweden": 0.188,
+                      "United States": 0.185,
+                      "Spain": 0.155,
+                      "Belgium": 0.0523,
+                      "France": 0.00383,
+                      "Japan": 0.00137,
+                      "Brunei": 0.00137,
+                      "Norway": 0.00121
+                    },
+                    "entropy": 1.873
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "name": "NODE_0000004",
+                    "node_attrs": {
+                      "div": 0.00466329,
+                      "num_date": {
+                        "value": 2023.829
+                      },
+                      "country": {
+                        "value": "Libya",
+                        "confidence": {
+                          "Libya": 0.412,
+                          "Sweden": 0.408,
+                          "Senegal": 0.0584,
+                          "United States": 0.053,
+                          "Spain": 0.0438,
+                          "Belgium": 0.0148,
+                          "France": 0.00118
+                        },
+                        "entropy": 1.336
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G973A",
+                          "A1706T"
+                        ],
+                        "HA": [
+                          "V325I"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA: V325I"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "EPI_ISL_18640930",
+                        "node_attrs": {
+                          "div": 0.00466329,
+                          "num_date": {
+                            "value": 2023.829,
+                            "inferred": false
+                          },
+                          "country": {
+                            "value": "Sweden",
+                            "confidence": {
+                              "Sweden": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "region": {
+                            "value": "Europe "
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "2646",
+                        "node_attrs": {
+                          "div": 0.00466329,
+                          "num_date": {
+                            "value": 2023.889,
+                            "inferred": false
+                          },
+                          "country": {
+                            "value": "Libya",
+                            "confidence": {
+                              "Libya": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "region": {
+                            "value": "Africa"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000006",
+                    "node_attrs": {
+                      "div": 0.00349851,
+                      "num_date": {
+                        "value": 2023.652
+                      },
+                      "country": {
+                        "value": "Senegal",
+                        "confidence": {
+                          "Senegal": 0.402,
+                          "United States": 0.393,
+                          "Libya": 0.0597,
+                          "Sweden": 0.0586,
+                          "Spain": 0.0491,
+                          "Belgium": 0.0162,
+                          "France": 0.00685,
+                          "Norway": 0.00193,
+                          "Hungary": 0.00108
+                        },
+                        "entropy": 1.429
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "name": "EPI_ISL_18527270",
+                        "node_attrs": {
+                          "div": 0.00349851,
+                          "num_date": {
+                            "value": 2023.736,
+                            "inferred": false
+                          },
+                          "country": {
+                            "value": "United States",
+                            "confidence": {
+                              "United States": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "region": {
+                            "value": "North_America "
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "NODE_0000007",
+                        "node_attrs": {
+                          "div": 0.00349851,
+                          "num_date": {
+                            "value": 2023.655
+                          },
+                          "country": {
+                            "value": "Senegal",
+                            "confidence": {
+                              "Senegal": 0.952,
+                              "France": 0.0155,
+                              "United States": 0.0117,
+                              "Norway": 0.00423,
+                              "Hungary": 0.00233,
+                              "Spain": 0.00188,
+                              "Ireland": 0.00182,
+                              "Libya": 0.00181,
+                              "Sweden": 0.00175,
+                              "Netherlands": 0.00128
+                            },
+                            "entropy": 0.297
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "NODE_0000008",
+                            "node_attrs": {
+                              "div": 0.00349851,
+                              "num_date": {
+                                "value": 2023.731
+                              },
+                              "country": {
+                                "value": "Senegal",
+                                "confidence": {
+                                  "Senegal": 0.943,
+                                  "France": 0.0329,
+                                  "United States": 0.00435,
+                                  "Ireland": 0.00427,
+                                  "Hungary": 0.00319,
+                                  "Switzerland": 0.00177,
+                                  "Norway": 0.00158,
+                                  "Italy": 0.00153,
+                                  "Israel": 0.00153,
+                                  "Netherlands": 0.00151
+                                },
+                                "entropy": 0.316
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "EPI_ISL_18718244",
+                                "node_attrs": {
+                                  "div": 0.00349851,
+                                  "num_date": {
+                                    "value": 2023.738,
+                                    "inferred": false
+                                  },
+                                  "country": {
+                                    "value": "France",
+                                    "confidence": {
+                                      "France": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "region": {
+                                    "value": "Europe "
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "NODE_0000009",
+                                "node_attrs": {
+                                  "div": 0.00349851,
+                                  "num_date": {
+                                    "value": 2023.871
+                                  },
+                                  "country": {
+                                    "value": "Senegal",
+                                    "confidence": {
+                                      "Senegal": 0.944,
+                                      "France": 0.0152,
+                                      "Ireland": 0.0124,
+                                      "Hungary": 0.00619,
+                                      "Switzerland": 0.0048,
+                                      "Italy": 0.00447,
+                                      "Israel": 0.00447,
+                                      "Netherlands": 0.00247,
+                                      "United States": 0.00194,
+                                      "Morocco": 0.00146
+                                    },
+                                    "entropy": 0.337
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "name": "NODE_0000010",
+                                    "node_attrs": {
+                                      "div": 0.00349851,
+                                      "num_date": {
+                                        "value": 2024.009
+                                      },
+                                      "country": {
+                                        "value": "Senegal",
+                                        "confidence": {
+                                          "Senegal": 0.95,
+                                          "Switzerland": 0.0111,
+                                          "Italy": 0.0107,
+                                          "Israel": 0.0107,
+                                          "France": 0.00641,
+                                          "Ireland": 0.00495,
+                                          "Hungary": 0.00243
+                                        },
+                                        "entropy": 0.3
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "NODE_0000011",
+                                        "node_attrs": {
+                                          "div": 0.00349851,
+                                          "num_date": {
+                                            "value": 2024.009
+                                          },
+                                          "country": {
+                                            "value": "Italy",
+                                            "confidence": {
+                                              "Italy": 0.349,
+                                              "Israel": 0.349,
+                                              "Senegal": 0.288,
+                                              "Switzerland": 0.00335,
+                                              "France": 0.00201,
+                                              "Ireland": 0.00155
+                                            },
+                                            "entropy": 1.199
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "EPI_ISL_18991068",
+                                            "node_attrs": {
+                                              "div": 0.00349851,
+                                              "num_date": {
+                                                "value": 2024.081,
+                                                "inferred": false
+                                              },
+                                              "country": {
+                                                "value": "Israel",
+                                                "confidence": {
+                                                  "Israel": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "region": {
+                                                "value": "Asia "
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "EPI_ISL_18953052",
+                                            "node_attrs": {
+                                              "div": 0.00349851,
+                                              "num_date": {
+                                                "value": 2024.02,
+                                                "inferred": false
+                                              },
+                                              "country": {
+                                                "value": "Italy",
+                                                "confidence": {
+                                                  "Italy": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "region": {
+                                                "value": "Europe "
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "name": "NODE_0000012",
+                                        "node_attrs": {
+                                          "div": 0.00349851,
+                                          "num_date": {
+                                            "value": 2024.009
+                                          },
+                                          "country": {
+                                            "value": "Senegal",
+                                            "confidence": {
+                                              "Senegal": 0.964,
+                                              "Switzerland": 0.0252,
+                                              "Italy": 0.00282,
+                                              "Israel": 0.00282,
+                                              "France": 0.00184,
+                                              "Ireland": 0.00131
+                                            },
+                                            "entropy": 0.197
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "EPI_ISL_18949991",
+                                            "node_attrs": {
+                                              "div": 0.00349851,
+                                              "num_date": {
+                                                "value": 2024.02,
+                                                "inferred": false
+                                              },
+                                              "country": {
+                                                "value": "Switzerland",
+                                                "confidence": {
+                                                  "Switzerland": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "region": {
+                                                "value": "Europe "
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "EPI_ISL_19144248",
+                                            "node_attrs": {
+                                              "div": 0.00349851,
+                                              "num_date": {
+                                                "value": 2024.023,
+                                                "inferred": false
+                                              },
+                                              "country": {
+                                                "value": "Senegal",
+                                                "confidence": {
+                                                  "Senegal": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "region": {
+                                                "value": "Africa "
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "NODE_0000013",
+                                    "node_attrs": {
+                                      "div": 0.00349851,
+                                      "num_date": {
+                                        "value": 2023.873
+                                      },
+                                      "country": {
+                                        "value": "Ireland",
+                                        "confidence": {
+                                          "Ireland": 0.394,
+                                          "Senegal": 0.352,
+                                          "Hungary": 0.143,
+                                          "Netherlands": 0.0462,
+                                          "Morocco": 0.0451,
+                                          "France": 0.00568,
+                                          "Switzerland": 0.00197,
+                                          "Italy": 0.00179,
+                                          "Israel": 0.00179
+                                        },
+                                        "entropy": 1.431
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "EPI_ISL_18811947",
+                                        "node_attrs": {
+                                          "div": 0.00349851,
+                                          "num_date": {
+                                            "value": 2023.873,
+                                            "inferred": false
+                                          },
+                                          "country": {
+                                            "value": "Ireland",
+                                            "confidence": {
+                                              "Ireland": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
+                                          "region": {
+                                            "value": "Europe "
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      },
+                                      {
+                                        "name": "NODE_0000014",
+                                        "node_attrs": {
+                                          "div": 0.00349851,
+                                          "num_date": {
+                                            "value": 2024.003
+                                          },
+                                          "country": {
+                                            "value": "Hungary",
+                                            "confidence": {
+                                              "Hungary": 0.437,
+                                              "Netherlands": 0.144,
+                                              "Morocco": 0.143,
+                                              "Ireland": 0.14,
+                                              "Senegal": 0.123,
+                                              "France": 0.00212
+                                            },
+                                            "entropy": 1.553
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "EPI_ISL_19274416",
+                                            "node_attrs": {
+                                              "div": 0.00349851,
+                                              "num_date": {
+                                                "value": 2024.097,
+                                                "inferred": false
+                                              },
+                                              "country": {
+                                                "value": "Hungary",
+                                                "confidence": {
+                                                  "Hungary": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "region": {
+                                                "value": "Europe "
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "NODE_0000015",
+                                            "node_attrs": {
+                                              "div": 0.00349851,
+                                              "num_date": {
+                                                "value": 2024.003
+                                              },
+                                              "country": {
+                                                "value": "Netherlands",
+                                                "confidence": {
+                                                  "Netherlands": 0.394,
+                                                  "Morocco": 0.393,
+                                                  "Hungary": 0.13,
+                                                  "Ireland": 0.0401,
+                                                  "Senegal": 0.0348
+                                                },
+                                                "entropy": 1.315
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "EPI_ISL_18773053",
+                                                "node_attrs": {
+                                                  "div": 0.00349851,
+                                                  "num_date": {
+                                                    "value": 2024.023,
+                                                    "inferred": false
+                                                  },
+                                                  "country": {
+                                                    "value": "Netherlands",
+                                                    "confidence": {
+                                                      "Netherlands": 1.0
+                                                    },
+                                                    "entropy": -1e-12
+                                                  },
+                                                  "region": {
+                                                    "value": "Europe "
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                }
+                                              },
+                                              {
+                                                "name": "EPI_ISL_19085671",
+                                                "node_attrs": {
+                                                  "div": 0.00349851,
+                                                  "num_date": {
+                                                    "value": 2024.051,
+                                                    "inferred": false
+                                                  },
+                                                  "country": {
+                                                    "value": "Morocco",
+                                                    "confidence": {
+                                                      "Morocco": 1.0
+                                                    },
+                                                    "entropy": -1e-12
+                                                  },
+                                                  "region": {
+                                                    "value": "Africa "
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000016",
+                            "node_attrs": {
+                              "div": 0.00349851,
+                              "num_date": {
+                                "value": 2023.657
+                              },
+                              "country": {
+                                "value": "Senegal",
+                                "confidence": {
+                                  "Senegal": 0.969,
+                                  "Norway": 0.00957,
+                                  "France": 0.00579,
+                                  "United States": 0.00413,
+                                  "Hungary": 0.00196,
+                                  "United Kingdom": 0.00191,
+                                  "Denmark": 0.00148,
+                                  "Netherlands": 0.00124
+                                },
+                                "entropy": 0.213
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "EPI_ISL_18856823",
+                                "node_attrs": {
+                                  "div": 0.00349851,
+                                  "num_date": {
+                                    "value": 2023.733,
+                                    "inferred": false
+                                  },
+                                  "country": {
+                                    "value": "Senegal",
+                                    "confidence": {
+                                      "Senegal": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "region": {
+                                    "value": "Africa "
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "NODE_0000017",
+                                "node_attrs": {
+                                  "div": 0.00349851,
+                                  "num_date": {
+                                    "value": 2023.659
+                                  },
+                                  "country": {
+                                    "value": "Senegal",
+                                    "confidence": {
+                                      "Senegal": 0.403,
+                                      "Norway": 0.38,
+                                      "United Kingdom": 0.0745,
+                                      "Denmark": 0.0604,
+                                      "Germany": 0.0214,
+                                      "Poland": 0.00889,
+                                      "Algeria": 0.00862,
+                                      "Netherlands": 0.00807,
+                                      "Portugal": 0.00689,
+                                      "Hungary": 0.00558,
+                                      "Romania": 0.00397,
+                                      "Croatia": 0.00364,
+                                      "France": 0.00244,
+                                      "United States": 0.00176,
+                                      "Serbia": 0.00141,
+                                      "Czech Republic": 0.00141
+                                    },
+                                    "entropy": 1.512
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "name": "EPI_ISL_18384818",
+                                    "node_attrs": {
+                                      "div": 0.00349851,
+                                      "num_date": {
+                                        "value": 2023.659,
+                                        "inferred": false
+                                      },
+                                      "country": {
+                                        "value": "Norway",
+                                        "confidence": {
+                                          "Norway": 1.0
+                                        },
+                                        "entropy": -1e-12
+                                      },
+                                      "region": {
+                                        "value": "Europe "
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000018",
+                                    "node_attrs": {
+                                      "div": 0.00349851,
+                                      "num_date": {
+                                        "value": 2023.693
+                                      },
+                                      "country": {
+                                        "value": "United Kingdom",
+                                        "confidence": {
+                                          "United Kingdom": 0.221,
+                                          "Denmark": 0.193,
+                                          "Senegal": 0.187,
+                                          "Norway": 0.169,
+                                          "Germany": 0.0692,
+                                          "Poland": 0.0284,
+                                          "Algeria": 0.0278,
+                                          "Netherlands": 0.0236,
+                                          "Portugal": 0.0222,
+                                          "Hungary": 0.0138,
+                                          "Romania": 0.0127,
+                                          "Croatia": 0.0116,
+                                          "Serbia": 0.00428,
+                                          "Czech Republic": 0.00428,
+                                          "France": 0.00127
+                                        },
+                                        "entropy": 2.125
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "NODE_0000019",
+                                        "node_attrs": {
+                                          "div": 0.00349851,
+                                          "num_date": {
+                                            "value": 2023.693
+                                          },
+                                          "country": {
+                                            "value": "United Kingdom",
+                                            "confidence": {
+                                              "United Kingdom": 0.485,
+                                              "Germany": 0.162,
+                                              "Senegal": 0.0708,
+                                              "Denmark": 0.0697,
+                                              "Norway": 0.061,
+                                              "Netherlands": 0.0538,
+                                              "Portugal": 0.0521,
+                                              "Poland": 0.0102,
+                                              "Algeria": 0.00999,
+                                              "Hungary": 0.00508,
+                                              "Romania": 0.0046,
+                                              "Croatia": 0.00422,
+                                              "Serbia": 0.00163,
+                                              "Czech Republic": 0.00163
+                                            },
+                                            "entropy": 1.758
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "EPI_ISL_18516482",
+                                            "node_attrs": {
+                                              "div": 0.00349851,
+                                              "num_date": {
+                                                "value": 2023.695,
+                                                "inferred": false
+                                              },
+                                              "country": {
+                                                "value": "United Kingdom",
+                                                "confidence": {
+                                                  "United Kingdom": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "region": {
+                                                "value": "Europe "
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "NODE_0000020",
+                                            "node_attrs": {
+                                              "div": 0.00349851,
+                                              "num_date": {
+                                                "value": 2023.693
+                                              },
+                                              "country": {
+                                                "value": "Germany",
+                                                "confidence": {
+                                                  "Germany": 0.443,
+                                                  "United Kingdom": 0.173,
+                                                  "Netherlands": 0.147,
+                                                  "Portugal": 0.145,
+                                                  "Senegal": 0.0245,
+                                                  "Denmark": 0.0241,
+                                                  "Norway": 0.0211,
+                                                  "Poland": 0.00362,
+                                                  "Algeria": 0.00355,
+                                                  "Hungary": 0.00192,
+                                                  "Romania": 0.0017,
+                                                  "Croatia": 0.00157
+                                                },
+                                                "entropy": 1.634
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "EPI_ISL_18720461",
+                                                "node_attrs": {
+                                                  "div": 0.00349851,
+                                                  "num_date": {
+                                                    "value": 2023.834,
+                                                    "inferred": false
+                                                  },
+                                                  "country": {
+                                                    "value": "Germany",
+                                                    "confidence": {
+                                                      "Germany": 1.0
+                                                    },
+                                                    "entropy": -1e-12
+                                                  },
+                                                  "region": {
+                                                    "value": "Europe "
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                }
+                                              },
+                                              {
+                                                "name": "NODE_0000005",
+                                                "node_attrs": {
+                                                  "div": 0.00408052,
+                                                  "num_date": {
+                                                    "value": 2023.758
+                                                  },
+                                                  "country": {
+                                                    "value": "Netherlands",
+                                                    "confidence": {
+                                                      "Netherlands": 0.395,
+                                                      "Portugal": 0.393,
+                                                      "Germany": 0.132,
+                                                      "United Kingdom": 0.0498,
+                                                      "Senegal": 0.00701,
+                                                      "Denmark": 0.00687,
+                                                      "Norway": 0.00602,
+                                                      "Poland": 0.00112,
+                                                      "Algeria": 0.00109
+                                                    },
+                                                    "entropy": 1.332
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "G990A"
+                                                    ]
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "EPI_ISL_18613942",
+                                                    "node_attrs": {
+                                                      "div": 0.00408052,
+                                                      "num_date": {
+                                                        "value": 2023.758,
+                                                        "inferred": false
+                                                      },
+                                                      "country": {
+                                                        "value": "Portugal",
+                                                        "confidence": {
+                                                          "Portugal": 1.0
+                                                        },
+                                                        "entropy": -1e-12
+                                                      },
+                                                      "region": {
+                                                        "value": "Europe "
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "EPI_ISL_18451392",
+                                                    "node_attrs": {
+                                                      "div": 0.00408052,
+                                                      "num_date": {
+                                                        "value": 2023.766,
+                                                        "inferred": false
+                                                      },
+                                                      "country": {
+                                                        "value": "Netherlands",
+                                                        "confidence": {
+                                                          "Netherlands": 1.0
+                                                        },
+                                                        "entropy": -1e-12
+                                                      },
+                                                      "region": {
+                                                        "value": "Europe "
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "name": "NODE_0000022",
+                                        "node_attrs": {
+                                          "div": 0.00349851,
+                                          "num_date": {
+                                            "value": 2023.765
+                                          },
+                                          "country": {
+                                            "value": "Denmark",
+                                            "confidence": {
+                                              "Denmark": 0.473,
+                                              "United Kingdom": 0.0845,
+                                              "Senegal": 0.0715,
+                                              "Poland": 0.0706,
+                                              "Algeria": 0.0697,
+                                              "Norway": 0.065,
+                                              "Romania": 0.0315,
+                                              "Hungary": 0.0313,
+                                              "Croatia": 0.0288,
+                                              "Germany": 0.0263,
+                                              "Serbia": 0.0104,
+                                              "Czech Republic": 0.0104,
+                                              "Netherlands": 0.00914,
+                                              "Portugal": 0.00849
+                                            },
+                                            "entropy": 1.971
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "EPI_ISL_18577142",
+                                            "node_attrs": {
+                                              "div": 0.00349851,
+                                              "num_date": {
+                                                "value": 2023.771,
+                                                "inferred": false
+                                              },
+                                              "country": {
+                                                "value": "Denmark",
+                                                "confidence": {
+                                                  "Denmark": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "region": {
+                                                "value": "Europe "
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "NODE_0000023",
+                                            "node_attrs": {
+                                              "div": 0.00349851,
+                                              "num_date": {
+                                                "value": 2023.95
+                                              },
+                                              "country": {
+                                                "value": "Denmark",
+                                                "confidence": {
+                                                  "Denmark": 0.208,
+                                                  "Poland": 0.187,
+                                                  "Algeria": 0.185,
+                                                  "Romania": 0.0841,
+                                                  "Hungary": 0.0797,
+                                                  "Croatia": 0.0769,
+                                                  "United Kingdom": 0.0363,
+                                                  "Senegal": 0.031,
+                                                  "Norway": 0.0281,
+                                                  "Serbia": 0.0277,
+                                                  "Czech Republic": 0.0277,
+                                                  "Germany": 0.0114,
+                                                  "Netherlands": 0.00414,
+                                                  "Portugal": 0.00379
+                                                },
+                                                "entropy": 2.261
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "NODE_0000024",
+                                                "node_attrs": {
+                                                  "div": 0.00349851,
+                                                  "num_date": {
+                                                    "value": 2023.963
+                                                  },
+                                                  "country": {
+                                                    "value": "Poland",
+                                                    "confidence": {
+                                                      "Poland": 0.41,
+                                                      "Algeria": 0.408,
+                                                      "Denmark": 0.0596,
+                                                      "Romania": 0.0238,
+                                                      "Hungary": 0.0225,
+                                                      "Croatia": 0.0217,
+                                                      "United Kingdom": 0.0102,
+                                                      "Senegal": 0.00873,
+                                                      "Norway": 0.00804,
+                                                      "Serbia": 0.00781,
+                                                      "Czech Republic": 0.00781,
+                                                      "Germany": 0.00327,
+                                                      "Netherlands": 0.00125,
+                                                      "Portugal": 0.00115
+                                                    },
+                                                    "entropy": 1.447
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "EPI_ISL_18962500",
+                                                    "node_attrs": {
+                                                      "div": 0.00349851,
+                                                      "num_date": {
+                                                        "value": 2023.963,
+                                                        "inferred": false
+                                                      },
+                                                      "country": {
+                                                        "value": "Poland",
+                                                        "confidence": {
+                                                          "Poland": 1.0
+                                                        },
+                                                        "entropy": -1e-12
+                                                      },
+                                                      "region": {
+                                                        "value": "Europe "
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "EPI_ISL_18942126",
+                                                    "node_attrs": {
+                                                      "div": 0.00349851,
+                                                      "num_date": {
+                                                        "value": 2023.988,
+                                                        "inferred": false
+                                                      },
+                                                      "country": {
+                                                        "value": "Algeria",
+                                                        "confidence": {
+                                                          "Algeria": 1.0
+                                                        },
+                                                        "entropy": -1e-12
+                                                      },
+                                                      "region": {
+                                                        "value": "Africa "
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    }
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "name": "NODE_0000025",
+                                                "node_attrs": {
+                                                  "div": 0.00349851,
+                                                  "num_date": {
+                                                    "value": 2023.953
+                                                  },
+                                                  "country": {
+                                                    "value": "Romania",
+                                                    "confidence": {
+                                                      "Romania": 0.2,
+                                                      "Hungary": 0.186,
+                                                      "Croatia": 0.183,
+                                                      "Denmark": 0.0864,
+                                                      "Poland": 0.0775,
+                                                      "Algeria": 0.0769,
+                                                      "Serbia": 0.0661,
+                                                      "Czech Republic": 0.0661,
+                                                      "United Kingdom": 0.0151,
+                                                      "Senegal": 0.013,
+                                                      "Norway": 0.0117,
+                                                      "Germany": 0.00483,
+                                                      "Netherlands": 0.0019,
+                                                      "Portugal": 0.00171
+                                                    },
+                                                    "entropy": 2.21
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "NODE_0000026",
+                                                    "node_attrs": {
+                                                      "div": 0.00349851,
+                                                      "num_date": {
+                                                        "value": 2023.955
+                                                      },
+                                                      "country": {
+                                                        "value": "Hungary",
+                                                        "confidence": {
+                                                          "Hungary": 0.41,
+                                                          "Croatia": 0.407,
+                                                          "Romania": 0.0574,
+                                                          "Denmark": 0.0245,
+                                                          "Poland": 0.0219,
+                                                          "Algeria": 0.0217,
+                                                          "Serbia": 0.0186,
+                                                          "Czech Republic": 0.0186,
+                                                          "United Kingdom": 0.0043,
+                                                          "Senegal": 0.00376,
+                                                          "Norway": 0.00336,
+                                                          "Germany": 0.00144
+                                                        },
+                                                        "entropy": 1.435
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "EPI_ISL_18852830",
+                                                        "node_attrs": {
+                                                          "div": 0.00349851,
+                                                          "num_date": {
+                                                            "value": 2024.02,
+                                                            "inferred": false
+                                                          },
+                                                          "country": {
+                                                            "value": "Hungary",
+                                                            "confidence": {
+                                                              "Hungary": 1.0
+                                                            },
+                                                            "entropy": -1e-12
+                                                          },
+                                                          "region": {
+                                                            "value": "Europe "
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        }
+                                                      },
+                                                      {
+                                                        "name": "EPI_ISL_19044391",
+                                                        "node_attrs": {
+                                                          "div": 0.00349851,
+                                                          "num_date": {
+                                                            "value": 2023.955,
+                                                            "inferred": false
+                                                          },
+                                                          "country": {
+                                                            "value": "Croatia",
+                                                            "confidence": {
+                                                              "Croatia": 1.0
+                                                            },
+                                                            "entropy": -1e-12
+                                                          },
+                                                          "region": {
+                                                            "value": "Europe "
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        }
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000027",
+                                                    "node_attrs": {
+                                                      "div": 0.00349851,
+                                                      "num_date": {
+                                                        "value": 2023.985
+                                                      },
+                                                      "country": {
+                                                        "value": "Romania",
+                                                        "confidence": {
+                                                          "Romania": 0.457,
+                                                          "Serbia": 0.154,
+                                                          "Czech Republic": 0.154,
+                                                          "Hungary": 0.0647,
+                                                          "Croatia": 0.0636,
+                                                          "Denmark": 0.0298,
+                                                          "Poland": 0.0267,
+                                                          "Algeria": 0.0265,
+                                                          "United Kingdom": 0.00527,
+                                                          "Senegal": 0.00455,
+                                                          "Norway": 0.00412,
+                                                          "Germany": 0.00177
+                                                        },
+                                                        "entropy": 1.743
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "EPI_ISL_18810401",
+                                                        "node_attrs": {
+                                                          "div": 0.00349851,
+                                                          "num_date": {
+                                                            "value": 2023.99,
+                                                            "inferred": false
+                                                          },
+                                                          "country": {
+                                                            "value": "Romania",
+                                                            "confidence": {
+                                                              "Romania": 1.0
+                                                            },
+                                                            "entropy": -1e-12
+                                                          },
+                                                          "region": {
+                                                            "value": "Europe "
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        }
+                                                      },
+                                                      {
+                                                        "name": "NODE_0000029",
+                                                        "node_attrs": {
+                                                          "div": 0.00349851,
+                                                          "num_date": {
+                                                            "value": 2023.986
+                                                          },
+                                                          "country": {
+                                                            "value": "Serbia",
+                                                            "confidence": {
+                                                              "Serbia": 0.396,
+                                                              "Czech Republic": 0.396,
+                                                              "Romania": 0.136,
+                                                              "Hungary": 0.0183,
+                                                              "Croatia": 0.018,
+                                                              "Denmark": 0.00846,
+                                                              "Poland": 0.00758,
+                                                              "Algeria": 0.00752,
+                                                              "United Kingdom": 0.00157,
+                                                              "Senegal": 0.00137,
+                                                              "Norway": 0.00125
+                                                            },
+                                                            "entropy": 1.35
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "name": "EPI_ISL_19052810",
+                                                            "node_attrs": {
+                                                              "div": 0.00408052,
+                                                              "num_date": {
+                                                                "value": 2024.083,
+                                                                "inferred": false
+                                                              },
+                                                              "country": {
+                                                                "value": "Serbia",
+                                                                "confidence": {
+                                                                  "Serbia": 1.0
+                                                                },
+                                                                "entropy": -1e-12
+                                                              },
+                                                              "region": {
+                                                                "value": "Europe "
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "C948T"
+                                                                ]
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "name": "EPI_ISL_18993977",
+                                                            "node_attrs": {
+                                                              "div": 0.00349851,
+                                                              "num_date": {
+                                                                "value": 2024.105,
+                                                                "inferred": false
+                                                              },
+                                                              "country": {
+                                                                "value": "Czech Republic",
+                                                                "confidence": {
+                                                                  "Czech Republic": 1.0
+                                                                },
+                                                                "entropy": -1e-12
+                                                              },
+                                                              "region": {
+                                                                "value": "Europe "
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NODE_0000028",
+        "node_attrs": {
+          "div": 0.00467061,
+          "num_date": {
+            "value": 2024.127
+          },
+          "country": {
+            "value": "Spain",
+            "confidence": {
+              "Spain": 0.402,
+              "Brunei": 0.137,
+              "Japan": 0.137,
+              "Indonesia": 0.0467,
+              "Malaysia": 0.0441,
+              "Thailand": 0.0435,
+              "Saudi Arabia": 0.0387,
+              "Vietnam": 0.0387,
+              "Senegal": 0.0367,
+              "Chile": 0.0183,
+              "Australia": 0.0161,
+              "Albania": 0.0066,
+              "Hong Kong (SAR)": 0.00659,
+              "Norway": 0.00658,
+              "United Kingdom": 0.0057,
+              "Belgium": 0.0044,
+              "Libya": 0.00397,
+              "France": 0.00294
+            },
+            "entropy": 2.066
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "C242A",
+              "A288G",
+              "A412G",
+              "G419A",
+              "C600T",
+              "A874G",
+              "A906C",
+              "C1593T"
+            ],
+            "HA": [
+              "T81K",
+              "N138D",
+              "S140N",
+              "K292E"
+            ]
+          },
+          "labels": {
+            "aa": "HA: T81K, N138D, S140N, K292E"
+          }
+        },
+        "children": [
+          {
+            "name": "EPI_ISL_19094384",
+            "node_attrs": {
+              "div": 0.00467061,
+              "num_date": {
+                "value": 2024.193,
+                "inferred": false
+              },
+              "country": {
+                "value": "Japan",
+                "confidence": {
+                  "Japan": 1.0
+                },
+                "entropy": -1e-12
+              },
+              "region": {
+                "value": "Asia "
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            }
+          },
+          {
+            "name": "EPI_ISL_19178665",
+            "node_attrs": {
+              "div": 0.00467061,
+              "num_date": {
+                "value": 2024.127,
+                "inferred": false
+              },
+              "country": {
+                "value": "Brunei",
+                "confidence": {
+                  "Brunei": 1.0
+                },
+                "entropy": -1e-12
+              },
+              "region": {
+                "value": "Asia "
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            }
+          },
+          {
+            "name": "NODE_0000032",
+            "node_attrs": {
+              "div": 0.00467061,
+              "num_date": {
+                "value": 2024.186
+              },
+              "country": {
+                "value": "Saudi Arabia",
+                "confidence": {
+                  "Saudi Arabia": 0.364,
+                  "Vietnam": 0.364,
+                  "Spain": 0.118,
+                  "Brunei": 0.0394,
+                  "Japan": 0.0394,
+                  "Indonesia": 0.0134,
+                  "Malaysia": 0.0126,
+                  "Thailand": 0.0124,
+                  "Senegal": 0.0105,
+                  "Chile": 0.0053,
+                  "Australia": 0.00466,
+                  "Hong Kong (SAR)": 0.00201,
+                  "Albania": 0.002,
+                  "Norway": 0.00199,
+                  "United Kingdom": 0.00175,
+                  "Belgium": 0.0014,
+                  "Libya": 0.00126
+                },
+                "entropy": 1.629
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "name": "EPI_ISL_19326415",
+                "node_attrs": {
+                  "div": 0.00467061,
+                  "num_date": {
+                    "value": 2024.234,
+                    "inferred": false
+                  },
+                  "country": {
+                    "value": "Vietnam",
+                    "confidence": {
+                      "Vietnam": 1.0
+                    },
+                    "entropy": -1e-12
+                  },
+                  "region": {
+                    "value": "Asia "
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                }
+              },
+              {
+                "name": "EPI_ISL_19388145",
+                "node_attrs": {
+                  "div": 0.00467061,
+                  "num_date": {
+                    "value": 2024.291,
+                    "inferred": false
+                  },
+                  "country": {
+                    "value": "Saudi Arabia",
+                    "confidence": {
+                      "Saudi Arabia": 1.0
+                    },
+                    "entropy": -1e-12
+                  },
+                  "region": {
+                    "value": "Asia "
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                }
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000035",
+            "node_attrs": {
+              "div": 0.00467061,
+              "num_date": {
+                "value": 2024.157
+              },
+              "country": {
+                "value": "Malaysia",
+                "confidence": {
+                  "Malaysia": 0.415,
+                  "Chile": 0.181,
+                  "Spain": 0.145,
+                  "Albania": 0.0653,
+                  "Brunei": 0.0487,
+                  "Japan": 0.0487,
+                  "Indonesia": 0.0166,
+                  "Thailand": 0.0154,
+                  "Saudi Arabia": 0.0137,
+                  "Vietnam": 0.0137,
+                  "Senegal": 0.013,
+                  "Australia": 0.0058,
+                  "Hong Kong (SAR)": 0.0025,
+                  "Norway": 0.00248,
+                  "United Kingdom": 0.00218,
+                  "Belgium": 0.00174,
+                  "Libya": 0.00157,
+                  "France": 0.00123
+                },
+                "entropy": 1.892
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "name": "EPI_ISL_19084588",
+                "node_attrs": {
+                  "div": 0.00467061,
+                  "num_date": {
+                    "value": 2024.163,
+                    "inferred": false
+                  },
+                  "country": {
+                    "value": "Malaysia",
+                    "confidence": {
+                      "Malaysia": 1.0
+                    },
+                    "entropy": -1e-12
+                  },
+                  "region": {
+                    "value": "Asia "
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                }
+              },
+              {
+                "name": "NODE_0000036",
+                "node_attrs": {
+                  "div": 0.00467061,
+                  "num_date": {
+                    "value": 2024.344
+                  },
+                  "country": {
+                    "value": "Chile",
+                    "confidence": {
+                      "Chile": 0.522,
+                      "Albania": 0.189,
+                      "Malaysia": 0.159,
+                      "Spain": 0.0537,
+                      "Brunei": 0.0178,
+                      "Japan": 0.0178,
+                      "Indonesia": 0.00615,
+                      "Thailand": 0.00573,
+                      "Saudi Arabia": 0.00511,
+                      "Vietnam": 0.00511,
+                      "Senegal": 0.00485,
+                      "Australia": 0.00224,
+                      "Hong Kong (SAR)": 0.00105,
+                      "Norway": 0.00104
+                    },
+                    "entropy": 1.493
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "name": "EPI_ISL_19814793",
+                    "node_attrs": {
+                      "div": 0.00467061,
+                      "num_date": {
+                        "value": 2025.012,
+                        "inferred": false
+                      },
+                      "country": {
+                        "value": "Albania",
+                        "confidence": {
+                          "Albania": 1.0
+                        },
+                        "entropy": -1e-12
+                      },
+                      "region": {
+                        "value": "Europe "
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  },
+                  {
+                    "name": "EPI_ISL_19329229",
+                    "node_attrs": {
+                      "div": 0.00467061,
+                      "num_date": {
+                        "value": 2024.348,
+                        "inferred": false
+                      },
+                      "country": {
+                        "value": "Chile",
+                        "confidence": {
+                          "Chile": 1.0
+                        },
+                        "entropy": -1e-12
+                      },
+                      "region": {
+                        "value": "South_America "
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000038",
+            "node_attrs": {
+              "div": 0.00467061,
+              "num_date": {
+                "value": 2024.232
+              },
+              "country": {
+                "value": "Spain",
+                "confidence": {
+                  "Spain": 0.413,
+                  "Indonesia": 0.245,
+                  "Senegal": 0.0681,
+                  "Brunei": 0.0521,
+                  "Japan": 0.0521,
+                  "Hong Kong (SAR)": 0.0358,
+                  "United Kingdom": 0.0324,
+                  "Malaysia": 0.0164,
+                  "Thailand": 0.0162,
+                  "France": 0.0145,
+                  "Saudi Arabia": 0.0144,
+                  "Vietnam": 0.0144,
+                  "Chile": 0.00684,
+                  "Australia": 0.00601,
+                  "Norway": 0.00261,
+                  "Albania": 0.00253,
+                  "Belgium": 0.00178,
+                  "Libya": 0.00157
+                },
+                "entropy": 1.905
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "name": "EPI_ISL_19715032",
+                "node_attrs": {
+                  "div": 0.00467061,
+                  "num_date": {
+                    "value": 2024.253,
+                    "inferred": false
+                  },
+                  "country": {
+                    "value": "Indonesia",
+                    "confidence": {
+                      "Indonesia": 1.0
+                    },
+                    "entropy": -1e-12
+                  },
+                  "region": {
+                    "value": "Asia "
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                }
+              },
+              {
+                "name": "NODE_0000041",
+                "node_attrs": {
+                  "div": 0.00467061,
+                  "num_date": {
+                    "value": 2024.41
+                  },
+                  "country": {
+                    "value": "Spain",
+                    "confidence": {
+                      "Spain": 0.441,
+                      "Senegal": 0.139,
+                      "Hong Kong (SAR)": 0.103,
+                      "Indonesia": 0.101,
+                      "United Kingdom": 0.0936,
+                      "France": 0.041,
+                      "Brunei": 0.0213,
+                      "Japan": 0.0213,
+                      "Malaysia": 0.0066,
+                      "Thailand": 0.00651,
+                      "Saudi Arabia": 0.00579,
+                      "Vietnam": 0.00579,
+                      "Chile": 0.00278,
+                      "Australia": 0.00245,
+                      "Norway": 0.00117,
+                      "Albania": 0.00109
+                    },
+                    "entropy": 1.841
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "name": "NODE_0000031",
+                    "node_attrs": {
+                      "div": 0.00467061,
+                      "num_date": {
+                        "value": 2024.559
+                      },
+                      "country": {
+                        "value": "Senegal",
+                        "confidence": {
+                          "Senegal": 0.412,
+                          "United Kingdom": 0.361,
+                          "Spain": 0.128,
+                          "Hong Kong (SAR)": 0.0292,
+                          "Indonesia": 0.0287,
+                          "France": 0.0131,
+                          "Japan": 0.00609,
+                          "Brunei": 0.00609,
+                          "Malaysia": 0.00196,
+                          "Thailand": 0.00193,
+                          "Saudi Arabia": 0.00173,
+                          "Vietnam": 0.00173
+                        },
+                        "entropy": 1.433
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "name": "EPI_ISL_19455578",
+                        "node_attrs": {
+                          "div": 0.00467061,
+                          "num_date": {
+                            "value": 2024.575,
+                            "inferred": false
+                          },
+                          "country": {
+                            "value": "United Kingdom",
+                            "confidence": {
+                              "United Kingdom": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "region": {
+                            "value": "Europe "
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "EPI_ISL_19497359",
+                        "node_attrs": {
+                          "div": 0.00467061,
+                          "num_date": {
+                            "value": 2024.583,
+                            "inferred": false
+                          },
+                          "country": {
+                            "value": "Senegal",
+                            "confidence": {
+                              "Senegal": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "region": {
+                            "value": "Africa "
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000033",
+                    "node_attrs": {
+                      "div": 0.00467061,
+                      "num_date": {
+                        "value": 2024.412
+                      },
+                      "country": {
+                        "value": "Spain",
+                        "confidence": {
+                          "Spain": 0.503,
+                          "Hong Kong (SAR)": 0.254,
+                          "France": 0.0947,
+                          "Senegal": 0.052,
+                          "Indonesia": 0.035,
+                          "United Kingdom": 0.0312,
+                          "Brunei": 0.00741,
+                          "Japan": 0.00741,
+                          "Malaysia": 0.00225,
+                          "Thailand": 0.00222,
+                          "Saudi Arabia": 0.00198,
+                          "Vietnam": 0.00198
+                        },
+                        "entropy": 1.478
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "name": "EPI_ISL_19406600",
+                        "node_attrs": {
+                          "div": 0.00467061,
+                          "num_date": {
+                            "value": 2024.52,
+                            "inferred": false
+                          },
+                          "country": {
+                            "value": "Hong Kong (SAR)",
+                            "confidence": {
+                              "Hong Kong (SAR)": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "region": {
+                            "value": "Asia "
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "NODE_0000034",
+                        "node_attrs": {
+                          "div": 0.00467061,
+                          "num_date": {
+                            "value": 2024.414
+                          },
+                          "country": {
+                            "value": "Spain",
+                            "confidence": {
+                              "Spain": 0.651,
+                              "France": 0.228,
+                              "Hong Kong (SAR)": 0.0748,
+                              "Senegal": 0.0161,
+                              "Indonesia": 0.0101,
+                              "United Kingdom": 0.00857,
+                              "Brunei": 0.00218,
+                              "Japan": 0.00218
+                            },
+                            "entropy": 1.043
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "EPI_ISL_19251899",
+                            "node_attrs": {
+                              "div": 0.00467061,
+                              "num_date": {
+                                "value": 2024.441,
+                                "inferred": false
+                              },
+                              "country": {
+                                "value": "Spain",
+                                "confidence": {
+                                  "Spain": 1.0
+                                },
+                                "entropy": -1e-12
+                              },
+                              "region": {
+                                "value": "Europe "
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          },
+                          {
+                            "name": "EPI_ISL_19255887",
+                            "node_attrs": {
+                              "div": 0.00467061,
+                              "num_date": {
+                                "value": 2024.414,
+                                "inferred": false
+                              },
+                              "country": {
+                                "value": "France",
+                                "confidence": {
+                                  "France": 1.0
+                                },
+                                "entropy": -1e-12
+                              },
+                              "region": {
+                                "value": "Europe "
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000037",
+            "node_attrs": {
+              "div": 0.00467061,
+              "num_date": {
+                "value": 2024.195
+              },
+              "country": {
+                "value": "Thailand",
+                "confidence": {
+                  "Thailand": 0.407,
+                  "Australia": 0.158,
+                  "Spain": 0.148,
+                  "Norway": 0.062,
+                  "Brunei": 0.0497,
+                  "Japan": 0.0497,
+                  "Indonesia": 0.0169,
+                  "Malaysia": 0.016,
+                  "Saudi Arabia": 0.014,
+                  "Vietnam": 0.014,
+                  "Senegal": 0.0137,
+                  "Libya": 0.0099,
+                  "Chile": 0.00672,
+                  "Poland": 0.0058,
+                  "China": 0.00576,
+                  "Oman": 0.0026,
+                  "Hong Kong (SAR)": 0.00255,
+                  "Albania": 0.00254,
+                  "United Kingdom": 0.00225,
+                  "Iceland": 0.00183,
+                  "Belgium": 0.00178,
+                  "France": 0.00126
+                },
+                "entropy": 2.016
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "name": "EPI_ISL_19006135",
+                "node_attrs": {
+                  "div": 0.00467061,
+                  "num_date": {
+                    "value": 2024.195,
+                    "inferred": false
+                  },
+                  "country": {
+                    "value": "Thailand",
+                    "confidence": {
+                      "Thailand": 1.0
+                    },
+                    "entropy": -1e-12
+                  },
+                  "region": {
+                    "value": "Asia "
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                }
+              },
+              {
+                "name": "NODE_0000042",
+                "node_attrs": {
+                  "div": 0.00525274,
+                  "num_date": {
+                    "value": 2024.395
+                  },
+                  "country": {
+                    "value": "Australia",
+                    "confidence": {
+                      "Australia": 0.457,
+                      "Norway": 0.182,
+                      "Thailand": 0.153,
+                      "Spain": 0.0542,
+                      "Libya": 0.023,
+                      "Brunei": 0.0181,
+                      "Japan": 0.0181,
+                      "Poland": 0.017,
+                      "China": 0.0169,
+                      "Oman": 0.00743,
+                      "Indonesia": 0.00626,
+                      "Malaysia": 0.00591,
+                      "Senegal": 0.00536,
+                      "Saudi Arabia": 0.0052,
+                      "Vietnam": 0.0052,
+                      "Iceland": 0.00514,
+                      "Chile": 0.00256,
+                      "Reunion": 0.0025,
+                      "United Arab Emirates": 0.0025,
+                      "Luxembourg": 0.00209,
+                      "Hong Kong (SAR)": 0.00107,
+                      "Albania": 0.00106
+                    },
+                    "entropy": 1.832
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G482A"
+                    ],
+                    "HA": [
+                      "S161N"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "HA: S161N"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "EPI_ISL_19267328",
+                    "node_attrs": {
+                      "div": 0.00525274,
+                      "num_date": {
+                        "value": 2024.395,
+                        "inferred": false
+                      },
+                      "country": {
+                        "value": "Australia",
+                        "confidence": {
+                          "Australia": 1.0
+                        },
+                        "entropy": -1e-12
+                      },
+                      "region": {
+                        "value": "Oceania "
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  },
+                  {
+                    "name": "NODE_0000039",
+                    "node_attrs": {
+                      "div": 0.00525274,
+                      "num_date": {
+                        "value": 2024.495
+                      },
+                      "country": {
+                        "value": "Norway",
+                        "confidence": {
+                          "Norway": 0.489,
+                          "Australia": 0.184,
+                          "Thailand": 0.0605,
+                          "Libya": 0.0582,
+                          "Poland": 0.0472,
+                          "China": 0.047,
+                          "Spain": 0.0216,
+                          "Oman": 0.0205,
+                          "Iceland": 0.014,
+                          "Brunei": 0.00726,
+                          "Japan": 0.00726,
+                          "Reunion": 0.00665,
+                          "United Arab Emirates": 0.00665,
+                          "Luxembourg": 0.00549,
+                          "Indonesia": 0.00261,
+                          "Malaysia": 0.00247,
+                          "Senegal": 0.00234,
+                          "Saudi Arabia": 0.00219,
+                          "Vietnam": 0.00219,
+                          "Slovakia": 0.00193,
+                          "Austria": 0.00193,
+                          "Chile": 0.00116
+                        },
+                        "entropy": 1.839
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "name": "EPI_ISL_19322670",
+                        "node_attrs": {
+                          "div": 0.00525274,
+                          "num_date": {
+                            "value": 2024.499,
+                            "inferred": false
+                          },
+                          "country": {
+                            "value": "Norway",
+                            "confidence": {
+                              "Norway": 1.0
+                            },
+                            "entropy": -1e-12
+                          },
+                          "region": {
+                            "value": "Europe "
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "NODE_0000040",
+                        "node_attrs": {
+                          "div": 0.00525274,
+                          "num_date": {
+                            "value": 2024.495
+                          },
+                          "country": {
+                            "value": "Norway",
+                            "confidence": {
+                              "Norway": 0.258,
+                              "Libya": 0.156,
+                              "Poland": 0.131,
+                              "China": 0.131,
+                              "Australia": 0.0962,
+                              "Oman": 0.0571,
+                              "Iceland": 0.0393,
+                              "Thailand": 0.0316,
+                              "Reunion": 0.0184,
+                              "United Arab Emirates": 0.0184,
+                              "Luxembourg": 0.0152,
+                              "Spain": 0.0115,
+                              "Slovakia": 0.00512,
+                              "Austria": 0.00512,
+                              "Brunei": 0.00398,
+                              "Japan": 0.00398,
+                              "Indonesia": 0.00157,
+                              "Malaysia": 0.0015,
+                              "Senegal": 0.00147,
+                              "Saudi Arabia": 0.00136,
+                              "Vietnam": 0.00136
+                            },
+                            "entropy": 2.29
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "NODE_0000045",
+                            "node_attrs": {
+                              "div": 0.00700038,
+                              "num_date": {
+                                "value": 2024.993
+                              },
+                              "country": {
+                                "value": "Libya",
+                                "confidence": {
+                                  "Libya": 0.515,
+                                  "Oman": 0.193,
+                                  "Reunion": 0.062,
+                                  "United Arab Emirates": 0.062,
+                                  "Norway": 0.0556,
+                                  "Poland": 0.0282,
+                                  "China": 0.0281,
+                                  "Australia": 0.0207,
+                                  "Iceland": 0.00849,
+                                  "Thailand": 0.00688,
+                                  "Luxembourg": 0.00339,
+                                  "Spain": 0.00264,
+                                  "Slovakia": 0.00126,
+                                  "Austria": 0.00126,
+                                  "Brunei": 0.00102,
+                                  "Japan": 0.00102
+                                },
+                                "entropy": 1.664
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G264A",
+                                  "A1137G",
+                                  "T1707C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "3646",
+                                "node_attrs": {
+                                  "div": 0.00700038,
+                                  "num_date": {
+                                    "value": 2024.993,
+                                    "inferred": false
+                                  },
+                                  "country": {
+                                    "value": "Libya",
+                                    "confidence": {
+                                      "Libya": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "region": {
+                                    "value": "Africa"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "NODE_0000053",
+                                "node_attrs": {
+                                  "div": 0.00700038,
+                                  "num_date": {
+                                    "value": 2024.996
+                                  },
+                                  "country": {
+                                    "value": "Oman",
+                                    "confidence": {
+                                      "Oman": 0.456,
+                                      "Libya": 0.185,
+                                      "Reunion": 0.148,
+                                      "United Arab Emirates": 0.148,
+                                      "Norway": 0.0192,
+                                      "Poland": 0.00976,
+                                      "China": 0.00973,
+                                      "Australia": 0.00719,
+                                      "Iceland": 0.00302,
+                                      "Thailand": 0.00247,
+                                      "Luxembourg": 0.00128,
+                                      "Spain": 0.00103
+                                    },
+                                    "entropy": 1.561
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "name": "EPI_ISL_19814704",
+                                    "node_attrs": {
+                                      "div": 0.00700038,
+                                      "num_date": {
+                                        "value": 2025.001,
+                                        "inferred": false
+                                      },
+                                      "country": {
+                                        "value": "Oman",
+                                        "confidence": {
+                                          "Oman": 1.0
+                                        },
+                                        "entropy": -1e-12
+                                      },
+                                      "region": {
+                                        "value": "Asia "
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000054",
+                                    "node_attrs": {
+                                      "div": 0.00700038,
+                                      "num_date": {
+                                        "value": 2024.996
+                                      },
+                                      "country": {
+                                        "value": "Reunion",
+                                        "confidence": {
+                                          "Reunion": 0.394,
+                                          "United Arab Emirates": 0.394,
+                                          "Oman": 0.136,
+                                          "Libya": 0.0531,
+                                          "Norway": 0.00549,
+                                          "Poland": 0.00283,
+                                          "China": 0.00282,
+                                          "Australia": 0.00211
+                                        },
+                                        "entropy": 1.308
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "EPI_ISL_20159691",
+                                        "node_attrs": {
+                                          "div": 0.0087523,
+                                          "num_date": {
+                                            "value": 2025.081,
+                                            "inferred": false
+                                          },
+                                          "country": {
+                                            "value": "Reunion",
+                                            "confidence": {
+                                              "Reunion": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
+                                          "region": {
+                                            "value": "Africa "
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "G78A",
+                                              "G234A",
+                                              "C369T"
+                                            ]
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "EPI_ISL_19899580",
+                                        "node_attrs": {
+                                          "div": 0.00700038,
+                                          "num_date": {
+                                            "value": 2025.138,
+                                            "inferred": false
+                                          },
+                                          "country": {
+                                            "value": "United Arab Emirates",
+                                            "confidence": {
+                                              "United Arab Emirates": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
+                                          "region": {
+                                            "value": "Asia "
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000048",
+                            "node_attrs": {
+                              "div": 0.00583487,
+                              "num_date": {
+                                "value": 2024.903
+                              },
+                              "country": {
+                                "value": "Poland",
+                                "confidence": {
+                                  "Poland": 0.357,
+                                  "China": 0.356,
+                                  "Iceland": 0.108,
+                                  "Norway": 0.0412,
+                                  "Luxembourg": 0.0411,
+                                  "Libya": 0.0246,
+                                  "Australia": 0.0151,
+                                  "Slovakia": 0.0134,
+                                  "Austria": 0.0134,
+                                  "Oman": 0.00895,
+                                  "Thailand": 0.00499,
+                                  "Reunion": 0.00294,
+                                  "United Arab Emirates": 0.00294,
+                                  "Spain": 0.00188
+                                },
+                                "entropy": 1.689
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A117G"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "EPI_ISL_19674894",
+                                "node_attrs": {
+                                  "div": 0.00583487,
+                                  "num_date": {
+                                    "value": 2024.906,
+                                    "inferred": false
+                                  },
+                                  "country": {
+                                    "value": "China",
+                                    "confidence": {
+                                      "China": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "region": {
+                                    "value": "Asia "
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "EPI_ISL_19723789",
+                                "node_attrs": {
+                                  "div": 0.00583487,
+                                  "num_date": {
+                                    "value": 2024.903,
+                                    "inferred": false
+                                  },
+                                  "country": {
+                                    "value": "Poland",
+                                    "confidence": {
+                                      "Poland": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "region": {
+                                    "value": "Europe "
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "NODE_0000056",
+                                "node_attrs": {
+                                  "div": 0.00583487,
+                                  "num_date": {
+                                    "value": 2025.036
+                                  },
+                                  "country": {
+                                    "value": "Iceland",
+                                    "confidence": {
+                                      "Iceland": 0.417,
+                                      "Luxembourg": 0.16,
+                                      "Poland": 0.134,
+                                      "China": 0.133,
+                                      "Slovakia": 0.0529,
+                                      "Austria": 0.0529,
+                                      "Norway": 0.0153,
+                                      "Libya": 0.00917,
+                                      "Australia": 0.00569,
+                                      "Oman": 0.00344,
+                                      "Thailand": 0.00199,
+                                      "Bulgaria": 0.00175,
+                                      "Reunion": 0.00124,
+                                      "United Arab Emirates": 0.00124
+                                    },
+                                    "entropy": 1.785
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "name": "NODE_0000043",
+                                    "node_attrs": {
+                                      "div": 0.00583487,
+                                      "num_date": {
+                                        "value": 2025.038
+                                      },
+                                      "country": {
+                                        "value": "Luxembourg",
+                                        "confidence": {
+                                          "Luxembourg": 0.442,
+                                          "Slovakia": 0.148,
+                                          "Austria": 0.148,
+                                          "Iceland": 0.146,
+                                          "Poland": 0.0463,
+                                          "China": 0.0462,
+                                          "Norway": 0.00537,
+                                          "Libya": 0.00327,
+                                          "Australia": 0.00208,
+                                          "Oman": 0.00131
+                                        },
+                                        "entropy": 1.648
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "EPI_ISL_19774495",
+                                        "node_attrs": {
+                                          "div": 0.00583487,
+                                          "num_date": {
+                                            "value": 2025.097,
+                                            "inferred": false
+                                          },
+                                          "country": {
+                                            "value": "Luxembourg",
+                                            "confidence": {
+                                              "Luxembourg": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
+                                          "region": {
+                                            "value": "Europe "
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      },
+                                      {
+                                        "name": "NODE_0000044",
+                                        "node_attrs": {
+                                          "div": 0.00583487,
+                                          "num_date": {
+                                            "value": 2025.04
+                                          },
+                                          "country": {
+                                            "value": "Slovakia",
+                                            "confidence": {
+                                              "Slovakia": 0.395,
+                                              "Austria": 0.395,
+                                              "Luxembourg": 0.132,
+                                              "Iceland": 0.0412,
+                                              "Poland": 0.0131,
+                                              "China": 0.0131,
+                                              "Norway": 0.0016,
+                                              "Libya": 0.00102
+                                            },
+                                            "entropy": 1.331
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "EPI_ISL_19781454",
+                                            "node_attrs": {
+                                              "div": 0.00583487,
+                                              "num_date": {
+                                                "value": 2025.04,
+                                                "inferred": false
+                                              },
+                                              "country": {
+                                                "value": "Slovakia",
+                                                "confidence": {
+                                                  "Slovakia": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "region": {
+                                                "value": "Europe "
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "EPI_ISL_19852994",
+                                            "node_attrs": {
+                                              "div": 0.00583487,
+                                              "num_date": {
+                                                "value": 2025.1,
+                                                "inferred": false
+                                              },
+                                              "country": {
+                                                "value": "Austria",
+                                                "confidence": {
+                                                  "Austria": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "region": {
+                                                "value": "Europe "
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "NODE_0000046",
+                                    "node_attrs": {
+                                      "div": 0.00583487,
+                                      "num_date": {
+                                        "value": 2025.051
+                                      },
+                                      "country": {
+                                        "value": "Iceland",
+                                        "confidence": {
+                                          "Iceland": 0.988,
+                                          "Bulgaria": 0.00351,
+                                          "Luxembourg": 0.00131,
+                                          "Germany": 0.00126,
+                                          "Ukraine": 0.00126,
+                                          "Poland": 0.00109,
+                                          "China": 0.00109
+                                        },
+                                        "entropy": 0.0901
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "NODE_0000047",
+                                        "node_attrs": {
+                                          "div": 0.00583487,
+                                          "num_date": {
+                                            "value": 2025.077
+                                          },
+                                          "country": {
+                                            "value": "Iceland",
+                                            "confidence": {
+                                              "Iceland": 0.991,
+                                              "Bulgaria": 0.00725
+                                            },
+                                            "entropy": 0.0636
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "EPI_ISL_20144902",
+                                            "node_attrs": {
+                                              "div": 0.00583487,
+                                              "num_date": {
+                                                "value": 2025.207,
+                                                "inferred": false
+                                              },
+                                              "country": {
+                                                "value": "Iceland",
+                                                "confidence": {
+                                                  "Iceland": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "region": {
+                                                "value": "Europe "
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "EPI_ISL_19857415",
+                                            "node_attrs": {
+                                              "div": 0.00583487,
+                                              "num_date": {
+                                                "value": 2025.097,
+                                                "inferred": false
+                                              },
+                                              "country": {
+                                                "value": "Bulgaria",
+                                                "confidence": {
+                                                  "Bulgaria": 1.0
+                                                },
+                                                "entropy": -1e-12
+                                              },
+                                              "region": {
+                                                "value": "Europe "
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "name": "NODE_0000049",
+                                        "node_attrs": {
+                                          "div": 0.00583487,
+                                          "num_date": {
+                                            "value": 2025.054
+                                          },
+                                          "country": {
+                                            "value": "Iceland",
+                                            "confidence": {
+                                              "Iceland": 0.989,
+                                              "Germany": 0.00294,
+                                              "Ukraine": 0.00294,
+                                              "Bulgaria": 0.00155,
+                                              "Finland": 0.00113
+                                            },
+                                            "entropy": 0.0865
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "NODE_0000050",
+                                            "node_attrs": {
+                                              "div": 0.00583487,
+                                              "num_date": {
+                                                "value": 2025.056
+                                              },
+                                              "country": {
+                                                "value": "Ukraine",
+                                                "confidence": {
+                                                  "Ukraine": 0.345,
+                                                  "Germany": 0.345,
+                                                  "Iceland": 0.301
+                                                },
+                                                "entropy": 1.164
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "EPI_ISL_19735931",
+                                                "node_attrs": {
+                                                  "div": 0.00583487,
+                                                  "num_date": {
+                                                    "value": 2025.056,
+                                                    "inferred": false
+                                                  },
+                                                  "country": {
+                                                    "value": "Germany",
+                                                    "confidence": {
+                                                      "Germany": 1.0
+                                                    },
+                                                    "entropy": -1e-12
+                                                  },
+                                                  "region": {
+                                                    "value": "Europe "
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                }
+                                              },
+                                              {
+                                                "name": "EPI_ISL_19848056",
+                                                "node_attrs": {
+                                                  "div": 0.00583487,
+                                                  "num_date": {
+                                                    "value": 2025.138,
+                                                    "inferred": false
+                                                  },
+                                                  "country": {
+                                                    "value": "Ukraine",
+                                                    "confidence": {
+                                                      "Ukraine": 1.0
+                                                    },
+                                                    "entropy": -1e-12
+                                                  },
+                                                  "region": {
+                                                    "value": "Europe "
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                }
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "name": "NODE_0000051",
+                                            "node_attrs": {
+                                              "div": 0.00583487,
+                                              "num_date": {
+                                                "value": 2025.078
+                                              },
+                                              "country": {
+                                                "value": "Iceland",
+                                                "confidence": {
+                                                  "Iceland": 0.992,
+                                                  "Finland": 0.00263,
+                                                  "Argentina": 0.00199,
+                                                  "Germany": 0.00102,
+                                                  "Ukraine": 0.00102
+                                                },
+                                                "entropy": 0.0618
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "EPI_ISL_20055798",
+                                                "node_attrs": {
+                                                  "div": 0.00583487,
+                                                  "num_date": {
+                                                    "value": 2025.207,
+                                                    "inferred": false
+                                                  },
+                                                  "country": {
+                                                    "value": "Iceland",
+                                                    "confidence": {
+                                                      "Iceland": 1.0
+                                                    },
+                                                    "entropy": -1e-12
+                                                  },
+                                                  "region": {
+                                                    "value": "Europe "
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                }
+                                              },
+                                              {
+                                                "name": "NODE_0000052",
+                                                "node_attrs": {
+                                                  "div": 0.00583487,
+                                                  "num_date": {
+                                                    "value": 2025.095
+                                                  },
+                                                  "country": {
+                                                    "value": "Finland",
+                                                    "confidence": {
+                                                      "Finland": 0.374,
+                                                      "Iceland": 0.336,
+                                                      "Argentina": 0.282
+                                                    },
+                                                    "entropy": 1.159
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "EPI_ISL_20151669",
+                                                    "node_attrs": {
+                                                      "div": 0.00583487,
+                                                      "num_date": {
+                                                        "value": 2025.284,
+                                                        "inferred": false
+                                                      },
+                                                      "country": {
+                                                        "value": "Finland",
+                                                        "confidence": {
+                                                          "Finland": 1.0
+                                                        },
+                                                        "entropy": -1e-12
+                                                      },
+                                                      "region": {
+                                                        "value": "Europe "
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "EPI_ISL_20221378",
+                                                    "node_attrs": {
+                                                      "div": 0.00583487,
+                                                      "num_date": {
+                                                        "value": 2025.429,
+                                                        "inferred": false
+                                                      },
+                                                      "country": {
+                                                        "value": "Argentina",
+                                                        "confidence": {
+                                                          "Argentina": 1.0
+                                                        },
+                                                        "entropy": -1e-12
+                                                      },
+                                                      "region": {
+                                                        "value": "South_America "
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
